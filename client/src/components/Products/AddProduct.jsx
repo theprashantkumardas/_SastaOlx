@@ -89,7 +89,7 @@ const AddProduct = () => {
       if (image) { // Append image if selected.
         formData.append('image', image)
       }
-      const response = await axios.post(
+      await axios.post(
         "https://sastaolx-backend.onrender.com/api/product/add",
         formData,
         {
