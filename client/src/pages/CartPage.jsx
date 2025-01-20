@@ -47,7 +47,7 @@ const CartPage = () => {
       console.log("user id inside use effect", userId);
       // Fetch cart items for this user from the backend
       axios
-        .get(`http://localhost:7000/api/cart/${userId}`, {
+        .get(`https://sastaolx-backend.onrender.com/api/cart/${userId}`, {
           headers: {
             Authorization: `Bearer ${localStorage.getItem('token')}`, // Include the token in the header
           },
@@ -66,7 +66,7 @@ const CartPage = () => {
   const handleRemoveItem = (productId) => {
     // Remove item from cart (send request to backend)
     axios
-      .delete(`http://localhost:7000/api/cart/remove/${userId}/${productId}`, {
+      .delete(`https://sastaolx-backend.onrender.com/api/cart/remove/${userId}/${productId}`, {
         headers: {
           Authorization: `Bearer ${localStorage.getItem('token')}`, // Include the token in the header
         },
