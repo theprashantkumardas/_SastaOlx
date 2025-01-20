@@ -78,10 +78,10 @@ const CartPage = () => {
       });
   };
 
-  const handleCheckout = () => {
-    // Navigate to checkout page
-    // navigate('/checkout');
-  };
+  // const handleCheckout = () => {
+  //   // Navigate to checkout page
+  //   // navigate('/checkout');
+  // };
 
  const handlePaymentSuccess = () => {
       setPaymentSuccess(true)
