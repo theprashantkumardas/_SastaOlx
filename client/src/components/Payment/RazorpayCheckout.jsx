@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, { useState} from 'react';
 const RazorpayCheckout = ({amount, onPaymentSuccess}) => {
     const [orderId, setOrderId] = useState('');
     const [loading, setLoading] = useState(false)
