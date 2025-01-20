@@ -3,7 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartPlus, faTruckFast, faGift } from '@fortawesome/free-solid-svg-icons'; // Import specific icon
-import Footer from "../Fotter/Fotter";
+// import Footer from "../Fotter/Fotter";
 
 const ProductList = () => {
   const [products, setProducts] = useState([]);
