@@ -11,7 +11,7 @@ const SellerDashboard = () => {
   useEffect(() => {
     const fetchChats = async () => {
       try {
-        const response = await axios.get("http://localhost:7000/api/chats"); // Endpoint for chats
+        const response = await axios.get("https://sastaolx-backend.onrender.com/api/chats"); // Endpoint for chats
         setChats(response.data);
       } catch (error) {
         console.error("Error fetching chats:", error);
@@ -26,7 +26,7 @@ const SellerDashboard = () => {
       const fetchMessages = async () => {
         try {
           const response = await axios.get(
-            `http://localhost:7000/api/messages/${selectedChat.chatId}`
+            `https://sastaolx-backend.onrender.com/api/messages/${selectedChat.chatId}`
           );
           setMessages(response.data);
         } catch (error) {
@@ -41,7 +41,7 @@ const SellerDashboard = () => {
   const sendMessage = async () => {
     if (newMessage.trim() && selectedChat) {
       try {
-        const response = await axios.post("http://localhost:7000/api/messages", {
+        const response = await axios.post("https://sastaolx-backend.onrender.com/api/messages", {
           chatId: selectedChat.chatId,
           content: newMessage,
         });
