@@ -33,7 +33,7 @@ const Profile = () => {
     
     const fetchUserProfile = async () => {
       try {
-        const response = await axios.get("http://localhost:7000/api/user/profile", {
+        const response = await axios.get("https://sastaolx-backend.onrender.com/api/user/profile", {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,
           },
@@ -65,7 +65,7 @@ const Profile = () => {
     e.preventDefault();
     try {
       const response = await axios.put(
-        "http://localhost:7000/api/user/profile",
+        "https://sastaolx-backend.onrender.com/api/user/profile",
         formData,
         {
           headers: {
