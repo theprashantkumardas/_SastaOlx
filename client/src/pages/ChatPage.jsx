@@ -18,13 +18,12 @@ const ChatPage = () => {
     const user = JSON.parse(localStorage.getItem('user')); // Example: assuming user data is saved in localStorage
     if (user) {
       setUserId(user._id);
-      console.log(user._id);
-      console.log(userId);
+      
     } else {
       // Handle case when user is not logged in (redirect, show message, etc.)
       navigate('/login');
     }
-  }, [navigate]);
+  }, [navigate, userId]);
 
   useEffect(() => {
     // Simulate fetching logged-in user's ID from authentication
@@ -33,14 +32,14 @@ const ChatPage = () => {
 
     if (token && user) {
       setUserId(user._id);
-      console.log(userId);
+      
       setLoading(false);
     } else {
        console.log("user not found")
        setLoading(false);
     }
     console.log("user id ", userId)
-  }, []);
+  }, [userId]);
 
 if(loading){
     return <p>Loading...</p>
