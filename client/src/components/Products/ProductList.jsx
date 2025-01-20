@@ -23,7 +23,7 @@ const ProductList = () => {
       console.log("User Not found");
       // setLoading(false);
     }
-  }, []);
+  }, [userId]);
 
   // useEffect(()=>{  // This is synchronous, and logs before change.
   useEffect(() => {
