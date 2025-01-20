@@ -1,6 +1,6 @@
 import React, { useState }  from "react";
 import Footer from "./Fotter/Fotter";
-import apiClient from "../api/apiClient";
+// import apiClient from "../api/apiClient";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
