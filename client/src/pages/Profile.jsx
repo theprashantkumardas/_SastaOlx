@@ -20,6 +20,7 @@ const Profile = () => {
     newPassword: "",
     confirmNewPassword: "",
   });
+  console.log(user);
 
   const [message, setMessage] = useState("");
   const navigate = useNavigate();
@@ -54,7 +55,7 @@ const Profile = () => {
     };
 
     fetchUserProfile();
-  }, []);
+  }, [navigate]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
