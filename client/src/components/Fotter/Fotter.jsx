@@ -23,25 +23,25 @@ const Footer = () => {
                         <div className="flex space-x-4 mt-4 ">
                             {/* Social Media Icons */}
                             <a
-                                href="#"
+                                href="https://sastaolx-frontend.onrender.com"
                                 className="w-8 h-8 flex  items-center justify-center bg-black text-white rounded-full"
                             >
                                 <i className="fab fa-twitter"></i>
                             </a>
                             <a
-                                href="#"
+                                href="https://sastaolx-frontend.onrender.com"
                                 className="w-8 h-8 flex items-center justify-center bg-black text-white rounded-full"
                             >
                                 <i className="fab fa-facebook-f"></i>
                             </a>
                             <a
-                                href="#"
+                                href="https://sastaolx-frontend.onrender.com"
                                 className="w-8 h-8 flex items-center justify-center bg-black text-white rounded-full"
                             >
                                 <i className="fab fa-instagram"></i>
                             </a>
                             <a
-                                href="#"
+                                href="https://sastaolx-frontend.onrender.com"
                                 className="w-8 h-8 flex items-center justify-center bg-black text-white rounded-full"
                             >
                                 <i className="fab fa-github"></i>
@@ -54,10 +54,10 @@ const Footer = () => {
                         <div className="">
                             <h3 className="font-bold text-lg">COMPANY</h3>
                             <ul className="mt-4 space-y-2 text-sm">
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Features</a></li>
-                                <li><a href="#">Works</a></li>
-                                <li><a href="#">Career</a></li>
+                                <li><a href="https://sastaolx-frontend.onrender.com">About</a></li>
+                                <li><a href="https://sastaolx-frontend.onrender.com">Features</a></li>
+                                <li><a href="https://sastaolx-frontend.onrender.com">Works</a></li>
+                                <li><a href="https://sastaolx-frontend.onrender.com">Career</a></li>
                             </ul>
                         </div>
 
@@ -65,10 +65,10 @@ const Footer = () => {
                         <div>
                             <h3 className="font-bold text-lg">HELP</h3>
                             <ul className="mt-4 space-y-2 text-sm">
-                                <li><a href="#">Customer Support</a></li>
-                                <li><a href="#">Delivery Details</a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="https://sastaolx-frontend.onrender.com">Customer Support</a></li>
+                                <li><a href="https://sastaolx-frontend.onrender.com">Delivery Details</a></li>
+                                <li><a href="https://sastaolx-frontend.onrender.com">Terms & Conditions</a></li>
+                                <li><a href="https://sastaolx-frontend.onrender.com">Privacy Policy</a></li>
                             </ul>
                         </div>
                     </div>
@@ -79,10 +79,10 @@ const Footer = () => {
                         <div className="">
                             <h3 className="font-bold text-lg">FAQ</h3>
                             <ul className="mt-4 space-y-2 text-sm">
-                                <li><a href="#">Account</a></li>
-                                <li><a href="#">Manage Deliveries</a></li>
-                                <li><a href="#">Orders</a></li>
-                                <li><a href="#">Payments</a></li>
+                                <li><a href="https://sastaolx-frontend.onrender.com">Account</a></li>
+                                <li><a href="https://sastaolx-frontend.onrender.com">Manage Deliveries</a></li>
+                                <li><a href="https://sastaolx-frontend.onrender.com">Orders</a></li>
+                                <li><a href="https://sastaolx-frontend.onrender.com">Payments</a></li>
                             </ul>
                         </div>
 
@@ -90,10 +90,10 @@ const Footer = () => {
                         <div>
                             <h3 className="font-bold text-lg">RESOURCES</h3>
                             <ul className="mt-4 space-y-2 text-sm">
-                                <li><a href="#">Free eBooks</a></li>
-                                <li><a href="#">Development Tutorial</a></li>
-                                <li><a href="#">How to - Blog</a></li>
-                                <li><a href="#">Youtube Playlist</a></li>
+                                <li><a href="https://sastaolx-frontend.onrender.com">Free eBooks</a></li>
+                                <li><a href="https://sastaolx-frontend.onrender.com">Development Tutorial</a></li>
+                                <li><a href="https://sastaolx-frontend.onrender.com">How to - Blog</a></li>
+                                <li><a href="https://sastaolx-frontend.onrender.com">Youtube Playlist</a></li>
                             </ul>
                         </div>
                     </div>
