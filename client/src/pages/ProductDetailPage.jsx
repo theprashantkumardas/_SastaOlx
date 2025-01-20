@@ -32,7 +32,7 @@ const ProductDetail = () => {
       }); // Debugging log
 
       const response = await axios.post(
-        `http://localhost:7000/api/chat`,
+        `https://sastaolx-backend.onrender.com/api/chat`,
         {
           buyerId: userId,
           productId: product._id,
@@ -56,7 +56,7 @@ const ProductDetail = () => {
 
   const handleAddToCart = async () => {
         try {
-        const response = await axios.post('http://localhost:7000/api/cart/add-to-cart', {
+        const response = await axios.post('https://sastaolx-backend.onrender.com/api/cart/add-to-cart', {
                 userId: userId,       // Change localStorage to userId
                 productId: product._id,
             }, {
