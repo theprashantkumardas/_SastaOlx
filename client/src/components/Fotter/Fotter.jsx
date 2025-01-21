@@ -18,7 +18,7 @@ const Footer = () => {
                     <div>
                         <h2 className="text-2xl font-bold">Sasta.OLX</h2>
                         <p className="mt-4 text-sm">
-                            We have clothes that suit your style and which you're proud to wear. From women to men.
+                        Discover the easiest way to buy and sell products online. With SastaOLX, experience secure transactions, real-time chat, and quality second-hand branded collections.
                         </p>
                         <div className="flex space-x-4 mt-4 ">
                             {/* Social Media Icons */}
