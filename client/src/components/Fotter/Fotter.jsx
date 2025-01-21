@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className="container mx-auto   py-8" >
 
-            <div className="max-w-7xl my-6 sm:mx-auto   mx-2   bg-black  rounded-3xl mt-10 text-customColor flex items-center justify-center py-10">
+            <div className="max-w-7xl my-6 sm:mx-auto   mx-2   bg-customColor rounded-3xl mt-10 text-white flex items-center justify-center py-10">
                 <h1 className="text-center font-bold text-3xl md:text-5xl">
                     Stay up to date with our latest collection
                 </h1>
@@ -16,7 +16,7 @@ const Footer = () => {
                 <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-800 justify-center">
                     {/* Logo and Description */}
                     <div>
-                        <h2 className="text-2xl font-bold">Sasta.OLX</h2>
+                        <h2 className="text-2xl font-bold text-customColor">Sasta.OLX</h2>
                         <p className="mt-4 text-sm">
                         Discover the easiest way to buy and sell products online. With SastaOLX, experience secure transactions, real-time chat, and quality second-hand branded collections.
                         </p>
@@ -24,25 +24,25 @@ const Footer = () => {
                             {/* Social Media Icons */}
                             <a
                                 href="https://sastaolx-frontend.onrender.com"
-                                className="w-8 h-8 flex  items-center justify-center bg-black text-white rounded-full"
+                                className="w-8 h-8 flex  items-center justify-center bg-customColor text-white rounded-full"
                             >
                                 <i className="fab fa-twitter"></i>
                             </a>
                             <a
                                 href="https://sastaolx-frontend.onrender.com"
-                                className="w-8 h-8 flex items-center justify-center bg-black text-white rounded-full"
+                                className="w-8 h-8 flex items-center justify-center bg-customColor text-white rounded-full"
                             >
                                 <i className="fab fa-facebook-f"></i>
                             </a>
                             <a
                                 href="https://sastaolx-frontend.onrender.com"
-                                className="w-8 h-8 flex items-center justify-center bg-black text-white rounded-full"
+                                className="w-8 h-8 flex items-center justify-center bg-customColor text-white rounded-full"
                             >
                                 <i className="fab fa-instagram"></i>
                             </a>
                             <a
                                 href="https://sastaolx-frontend.onrender.com"
-                                className="w-8 h-8 flex items-center justify-center bg-black text-white rounded-full"
+                                className="w-8 h-8 flex items-center justify-center bg-customColor text-white rounded-full"
                             >
                                 <i className="fab fa-github"></i>
                             </a>
@@ -52,7 +52,7 @@ const Footer = () => {
                     {/* Company Links */}
                     <div className="flex justify-around ">
                         <div className="">
-                            <h3 className="font-bold text-lg">COMPANY</h3>
+                            <h3 className="font-bold text-lg text-customColor">COMPANY</h3>
                             <ul className="mt-4 space-y-2 text-sm">
                                 <li><a href="https://sastaolx-frontend.onrender.com">About</a></li>
                                 <li><a href="https://sastaolx-frontend.onrender.com">Features</a></li>
@@ -63,7 +63,7 @@ const Footer = () => {
 
                         {/* Help Links */}
                         <div>
-                            <h3 className="font-bold text-lg">HELP</h3>
+                            <h3 className="font-bold text-lg text-customColor">HELP</h3>
                             <ul className="mt-4 space-y-2 text-sm">
                                 <li><a href="https://sastaolx-frontend.onrender.com">Customer Support</a></li>
                                 <li><a href="https://sastaolx-frontend.onrender.com">Delivery Details</a></li>
@@ -77,7 +77,7 @@ const Footer = () => {
                     <div className="flex justify-around">
                         {/* FAQ Links */}
                         <div className="">
-                            <h3 className="font-bold text-lg">FAQ</h3>
+                            <h3 className="font-bold text-lg text-customColor">FAQ</h3>
                             <ul className="mt-4 space-y-2 text-sm">
                                 <li><a href="https://sastaolx-frontend.onrender.com">Account</a></li>
                                 <li><a href="https://sastaolx-frontend.onrender.com">Manage Deliveries</a></li>
@@ -88,7 +88,7 @@ const Footer = () => {
 
                         {/* Resources Links */}
                         <div>
-                            <h3 className="font-bold text-lg">RESOURCES</h3>
+                            <h3 className="font-bold text-lg text-customColor ">RESOURCES</h3>
                             <ul className="mt-4 space-y-2 text-sm">
                                 <li><a href="https://sastaolx-frontend.onrender.com">Free eBooks</a></li>
                                 <li><a href="https://sastaolx-frontend.onrender.com">Development Tutorial</a></li>

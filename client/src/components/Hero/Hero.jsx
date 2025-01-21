@@ -30,7 +30,7 @@ const Hero = () => {
                     <p className="text-lg mb-10">
                     Discover the easiest way to buy and sell products online. With SastaOLX, experience secure transactions, real-time chat, and quality second-hand branded collections.
                     </p>
-                    <button className="bg-customColor hover:bg-customColor text-white font-bold py-3 px-6 rounded-full">
+                    <button className="bg-customColor hover:bg-secondaryColor hover:text-black text-white font-bold py-3 px-6 rounded-full">
                         Shop Now
                     </button>
 
@@ -55,7 +55,7 @@ const Hero = () => {
 
 
                 <div className="md:w-1/2 ">
-                    <img src="https://images.unsplash.com/photo-1642543348745-03b1219733d9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hero" className="w-full rounded-3xl object-cover h-auto md:h-full" />
+                    <img src="https://images.unsplash.com/photo-1631089667980-7fe55b2abb9a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hero" className="w-full rounded-3xl object-cover h-auto md:h-full" />
                 </div>
 
 
@@ -65,7 +65,7 @@ const Hero = () => {
            
 
         </section>
-         <div className=" grid grid-cols-5 place-items-center justify-center bg-black h-20 hidden md:grid">
+         <div className=" grid grid-cols-5 place-items-center justify-center text-white  bg-customColor h-20 hidden md:grid">
          {/* <div className='w-36 h-20 bg-black ' >  */}
 
 
@@ -74,11 +74,11 @@ const Hero = () => {
          {/* <img src="/images/versace.png" alt="Versace" className="w-20 h-20 object-contain" /> */}
          {/* <img src="/images/zara.png" alt="Zara" className="w-20 h-20 object-contain" /> */}
          {/* <img src="/images/gucci.png" alt="Gucci" className="w-20 h-20 object-contain" /> */}
-         <p className='text-customColor text-4xl font-bold  items-center justify-center  '>PRADA</p>
-         <p className='text-customColor text-4xl font-bold  items-center justify-center  '>APPLE</p>
-         <p className='text-customColor text-4xl font-bold  items-center justify-center  '>ROLEX</p>
-         <p className='text-customColor text-4xl font-bold  items-center justify-center  '>GUCCI</p>
-         <p className='text-customColor text-4xl font-bold  items-center justify-center  '>SAMSUNG</p>
+         <p className='text-4xl font-bold  items-center justify-center  '>PRADA</p>
+         <p className='  text-4xl font-bold  items-center justify-center  '>APPLE</p>
+         <p className='  text-4xl font-bold  items-center justify-center  '>ROLEX</p>
+         <p className='  text-4xl font-bold  items-center justify-center  '>GUCCI</p>
+         <p className='  text-4xl font-bold  items-center justify-center  '>SAMSUNG</p>
          {/* <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fvector-art%2F23870512-prada-milano-logo-brand-white-symbol-clothes-design-icon-abstract-vector-illustration-with-black-background&psig=AOvVaw102ecUoczjLEwWAkzgzlCC&ust=1736450239227000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMCv4LPr5ooDFQAAAAAdAAAAABAE" alt="Prada" className="w-20 h-20 object-contain" /> */}
          {/* <img src="/images/calvin-klein.png" alt="Calvin Klein" className="w-20 h-20 object-contain" /> */}
      </div>

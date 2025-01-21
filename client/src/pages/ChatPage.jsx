@@ -45,7 +45,7 @@ if(loading){
     return <p>Loading...</p>
 }
   return (
-    <div className="flex h-screen max-w-8xl mx-auto p-4  ">
+    <div className="flex h-screen max-w-8xl mx-auto   ">
       {/* Left-side Chat List */}
       <div className="w-1/3 border-r">
           <ChatList userId={userId} onSelectChat={setSelectedChat} />
@@ -56,7 +56,7 @@ if(loading){
         {selectedChat ? (
           <ChatWindow chat={selectedChat} userId={userId} />
         ) : (
-          <div className="h-full flex items-center justify-center text-gray-500">
+          <div className="h-screen flex items-center justify-center text-gray-500">
             Select a chat to view messages
           </div>
         )}

@@ -37,7 +37,7 @@ const ChatList = ({ userId, onSelectChat }) => {
   }, [userId]);
 
   return (
-    <div className="h-full overflow-y-auto bg-gray-300 rounded-lg m-4 p-2   ">
+    <div className="h-full overflow-y-auto  rounded-lg    ">
     {loading ? (<p>Loading...</p>) : (
       chats.map((chat) => (
         <div

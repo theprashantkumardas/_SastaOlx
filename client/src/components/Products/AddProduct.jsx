@@ -178,7 +178,7 @@ const AddProduct = () => {
           />
           <button
             type="submit"
-            className="w-full bg-black text-white py-2 px-4 rounded-full transition duration-200"
+            className="w-full bg-customColor text-white hover:bg-secondaryColor hover:text-black py-2 px-4 rounded-full transition duration-200"
           // hover:bg-blue-600
           >
             Add Product

@@ -108,13 +108,13 @@ const ProductList = () => {
                     </div>
                     <div className="mt-4 flex flex-row items-center w-full gap-2">
                       <button
-                        className="flex-grow bg-customColor text-white py-2 px-4 rounded-[36px] font-semibold text-center hover:bg-customColor transition duration-200"
+                        className="flex-grow bg-customColor  text-white py-2 px-4 rounded-[36px] font-semibold text-center hover:bg-secondaryColor hover:text-black transition duration-200"
                         onClick={() => handleProductClick(product)}
                       >
                         View
                       </button>
                       <button
-                        className="w-[40px] h-[40px] rounded-full border-2 border-customColor text-customColor flex items-center justify-center"
+                        className="w-[40px] h-[40px] rounded-full border-2 border-customColor text-customColor  flex items-center justify-center"
                       >
                         <FontAwesomeIcon className="w-4 " icon={faCartPlus} />
                       </button>

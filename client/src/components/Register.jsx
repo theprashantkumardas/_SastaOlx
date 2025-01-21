@@ -45,7 +45,7 @@ const Register = () => {
     <>
       <div className="flex  justify-center  bg-gray-50">
         <div className="w-full my-12 max-w-md mx-4  h-1/4  sm:mx-auto bg-white p-8 rounded-3xl shadow-lg">
-          <h2 className="text-2xl font-bold text-center text-customColor mb-6">
+          <h2 className="text-2xl font-bold text-center  mb-6">
             Register
           </h2>
 
@@ -128,7 +128,7 @@ const Register = () => {
             <div className="mb-6">
               <button
                 type="submit"
-                className="w-full px-4 py-2 text-white bg-customColor rounded-full hover:bg-black focus:outline-none focus:ring-2 "
+                className="w-full px-4 py-2  bg-customColor text-white hover:bg-secondaryColor hover:text-black  rounded-full  "
               >
                 Register
               </button>

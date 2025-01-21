@@ -85,7 +85,7 @@ const HomeProducts = () => {
                 </div>
                 <div className="mt-4 flex flex-row items-center w-full gap-2">
                   <button
-                    className="flex-grow bg-customColor text-white py-2 px-4 rounded-[36px] font-semibold text-center hover:bg-customColor transition duration-200"
+                    className="flex-grow bg-customColor hover:bg-secondaryColor hover:text-black text-white py-2 px-4 rounded-[36px] font-semibold text-center transition duration-200"
                     onClick={() => handleProductClick(product)}
                   >
                     View

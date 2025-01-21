@@ -95,7 +95,7 @@ const ChatWindow = ({ chat, userId }) => {
           >
             <div
               className={`inline-block px-4 py-2 rounded-lg ${
-                  message.sender._id === userId ? 'bg-black text-white ' : 'bg-gray-200'
+                  message.sender._id === userId ? 'bg-customColor text-white ' : 'bg-gray-200'
               }`}
             >
                  {message.sender.name} : {message.content}
@@ -107,7 +107,7 @@ const ChatWindow = ({ chat, userId }) => {
       </div>
 
       {/* Message Input */}
-      <div className="p-4 border-t">
+      <div className="p-4 border-t mb-20">
         <input
           type="text"
           placeholder="Type your message..."
@@ -117,7 +117,7 @@ const ChatWindow = ({ chat, userId }) => {
         />
         <button
           onClick={handleSendMessage}
-          className="mt-2 w-full bg-black text-white py-2 rounded"
+          className="mt-2 w-full bg-customColor text-white py-2 rounded"
         >
           Send
         </button>
