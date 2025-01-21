@@ -8,7 +8,7 @@ import AddProduct from './components/Products/AddProduct';
 import Profile from './pages/Profile';
 import ChatPage from './pages/ChatPage';
 import ProductDetail from "./pages/ProductDetailPage"; 
-import ChatWindow from './components/Chat/ChatWindow';
+// import ChatWindow from './components/Chat/ChatWindow';
 import CartPage from "./pages/CartPage.jsx";
 import Home from './pages/Home.jsx';
 

@@ -28,7 +28,7 @@ const Register = () => {
     e.preventDefault(); // Prevent page reload on form submit
     try {
       const response = await axios.post(
-        "http://localhost:7000/api/auth/register",
+        "https://sastaolx-backend.onrender.com/api/auth/register",
         formData
       ); // Send data to the backend
       setMessage("User registered successfully"); // Success message

@@ -15,7 +15,7 @@ const HomeProducts = () => {
       try {
         const token = localStorage.getItem("token"); // Retrieve JWT token
         const response = await axios.get(
-          "http://localhost:7000/api/product/get-products",
+          "https://sastaolx-backend.onrender.com/api/product/get-products",
           {
             headers: { Authorization: `Bearer ${token}` },
           }

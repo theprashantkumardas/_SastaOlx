@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Footer from "./Fotter/Fotter";
-import apiClient from "../api/apiClient";
+// import apiClient from "../api/apiClient";
 import axios from "axios";
 import { Link,useNavigate } from "react-router-dom";
 
@@ -21,19 +21,19 @@ const Login = () => {
     setFormData({ ...formData, [name]: value })
   };
 
-  // Handle form submission
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const response = await axios.post('http://localhost:7000/api/auth/login', formData); //Send Logn data to the backend by binding with "formData"through the "login" api route
-      setMessage("User logged in successfully"); //Set the message to be displayed on successful login
-      localStorage.setItem('token', response.data.token); //Store the token in local storage
-      localStorage.setItem('user', JSON.stringify(response.data.user)); //Store the user object in local storage
-
-      navigate("/shop");// Redirect to Add Product page
-    } catch (error) {
-      setMessage(error.response.data.message || "Login failed"); //Set the message to be displayed on failed login
-    }
+    // Handle form submission
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+            const response = await axios.post('https://sastaolx-backend.onrender.com/api/auth/login', formData); //Send Logn data to the backend by binding with "formData"through the "login" api route
+            setMessage("User logged in successfully"); //Set the message to be displayed on successful login
+            localStorage.setItem('token', response.data.token); //Store the token in local storage
+            localStorage.setItem('user', JSON.stringify(response.data.user)); //Store the user object in local storage
+            
+            navigate("/shop");// Redirect to Add Product page
+        } catch (error) {
+            setMessage(error.response.data.message || "Login failed"); //Set the message to be displayed on failed login
+        }
 
   };
 

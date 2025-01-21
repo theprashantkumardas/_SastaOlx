@@ -3,7 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartPlus, faTruckFast, faGift } from '@fortawesome/free-solid-svg-icons'; // Import specific icon
-import Footer from "../Fotter/Fotter";
+// import Footer from "../Fotter/Fotter";
 
 const ProductList = () => {
   const [products, setProducts] = useState([]);
@@ -23,7 +23,7 @@ const ProductList = () => {
       console.log("User Not found");
       // setLoading(false);
     }
-  }, []);
+  }, [userId]);
 
   // useEffect(()=>{  // This is synchronous, and logs before change.
   useEffect(() => {
@@ -36,7 +36,7 @@ const ProductList = () => {
       try {
         const token = localStorage.getItem("token"); // Retrieve JWT token
         const response = await axios.get(
-          "http://localhost:7000/api/product/get-products",
+          "https://sastaolx-backend.onrender.com/api/product/get-products",
           {
             headers: { Authorization: `Bearer ${token}` },
           }

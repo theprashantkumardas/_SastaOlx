@@ -29,7 +29,7 @@ const AddProduct = () => {
     // Fetch categories
     const fetchCategories = async () => {
       try {
-        const response = await axios.get("http://localhost:7000/api/product/categories", {
+        const response = await axios.get("https://sastaolx-backend.onrender.com/api/product/categories", {
           headers: { Authorization: `Bearer ${token}` },
         });
         setCategories(response.data);
@@ -49,7 +49,7 @@ const AddProduct = () => {
     if (selectedCategory) {
       try {
         const response = await axios.get(
-          `http://localhost:7000/api/product/subcategories?category=${selectedCategory}`, {
+          `https://sastaolx-backend.onrender.com/api/product/subcategories?category=${selectedCategory}`, {
           headers: { Authorization: `Bearer ${localStorage.getItem('token')}` },
         }
         );
@@ -89,8 +89,8 @@ const AddProduct = () => {
       if (image) { // Append image if selected.
         formData.append('image', image)
       }
-      const response = await axios.post(
-        "http://localhost:7000/api/product/add",
+      await axios.post(
+        "https://sastaolx-backend.onrender.com/api/product/add",
         formData,
         {
           headers: {
